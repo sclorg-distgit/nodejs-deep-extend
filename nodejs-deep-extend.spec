@@ -7,7 +7,7 @@
 
 Name:           %{?scl_prefix}nodejs-%{module_name}
 Version:        0.3.2
-Release:        5%{?dist}
+Release:        6%{?dist}
 Summary:        Recursive object extending
 
 License:        MIT
@@ -51,6 +51,9 @@ mocha
 %{nodejs_sitelib}/%{module_name}
 
 %changelog
+* Sun Feb 14 2016 Zuzana Svetlikova <zsvetlik@redhat.com> - 0.3.2-6
+- rebuilt
+
 * Wed Jan 13 2016 Tomas Hrcka <thrcka@redhat.com> - 0.3.2-5
 - Enable scl macros
 
